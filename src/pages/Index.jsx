@@ -20,7 +20,7 @@ const Index = () => {
   };
 
   return (
-    <Container maxW="container.xl" p={10} style={{ backgroundImage: "url('/path-to-your-background-image.jpg')", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} boxShadow="2xl" borderRadius="2xl">
+    <Container maxW="container.xl" p={10} style={{ backgroundImage: "url('INSERT_VALID_IMAGE_URL_HERE')", backgroundSize: "cover", backgroundRepeat: "no-repeat" }} boxShadow="2xl" borderRadius="2xl">
       <VStack spacing={6}>
         <Heading as="h1" size="2xl" fontWeight="bold" textAlign="center" color="brand.800">
           Virtual Actor Video Generator
