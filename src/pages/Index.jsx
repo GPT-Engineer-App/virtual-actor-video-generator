@@ -20,7 +20,7 @@ const Index = () => {
   };
 
   return (
-    <Container maxW="container.md" py={8}>
+    <Container maxW="container.md" py={8} bg="brand.700" boxShadow="xl" borderRadius="lg">
       <VStack spacing={6}>
         <Heading as="h1" size="xl" textAlign="center">
           Virtual Actor Video Generator
@@ -39,7 +39,7 @@ const Index = () => {
               {/* Add more actors as needed */}
             </Select>
           </FormControl>
-          <Button mt={6} colorScheme="blue" leftIcon={<FaRobot />} rightIcon={<FaPlay />} type="submit" isFullWidth>
+          <Button mt={6} colorScheme="teal" leftIcon={<FaRobot />} rightIcon={<FaPlay />} type="submit" isFullWidth>
             Generate Video
           </Button>
         </Box>
